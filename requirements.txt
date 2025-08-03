@@ -1,0 +1,6 @@
+chromadb
+fastapi
+uvicorn
+beautifulsoup4
+requests
+sentence-transformers
