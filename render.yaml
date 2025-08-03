@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: chromadb-rag
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python crawler_embed_server.py
+    autoDeploy: true
+    plan: free
